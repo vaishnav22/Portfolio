@@ -1,0 +1,42 @@
+.container{
+    margin: 30px auto;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    margin: 70px auto;
+}
+
+a > i{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+
+.big-circle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.5;
+    height: 80%;
+}
+
+.mid-circle {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.5;
+}
